@@ -1,3 +1,5 @@
+[![Deploy](https://github.com/harrysharma1/personal-docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/harrysharma1/personal-docs/actions/workflows/deploy.yml)
+
 # Commands
 
 ## Mkdocs commands
