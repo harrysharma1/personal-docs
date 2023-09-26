@@ -23,6 +23,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Python:
+    - About page: python/about.md
     - Virtual environments:
               - About page: python/virtual_environments/about.md
               - Virtualenv : python/virtual_environments/virtualenv.md
