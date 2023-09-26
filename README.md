@@ -20,5 +20,5 @@ pip install -r requirements.txt
 ## Check linter
 
 ```bash
-docker run -v $PWD:/code pipelinecomponents/markdownlint docs README.md
+docker run -v $PWD:/code pipelinecomponents/markdownlint --style exclude.rb docs README.md
 ```
