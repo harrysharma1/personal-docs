@@ -1,4 +1,4 @@
-name: deploy
+name: Deploy
 on:
   push:
     branches:
@@ -7,7 +7,17 @@ on:
 permissions:
   contents: write
 jobs:
+  lint_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check markdown
+        run:  docker run -v $PWD:/code pipelinecomponents/markdownlint docs README.md 
+  
   deploy:
+    need: lint_check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
