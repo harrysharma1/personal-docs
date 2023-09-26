@@ -1,6 +1,6 @@
 # Commands
 
-## MkDocs commands
+## Mkdocs commands
 
 - `mkdocs new [dir-name]`: Starts new mkdocs project
 - `mkdocs serve`: Starts mkdocs server
