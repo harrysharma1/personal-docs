@@ -8,12 +8,11 @@ This mainly covers setup.
 ## Setting up a virtual environment
 
 You need to have anaconda installed and added to your path on your terminal.
-Then you can set it up:
+Then you can set it up in your terminal:
 
 ```bash
-user:~$ conda create -n example_env
-user:~$ conda activate
-(example_env) user:~$ ...
+conda create -n example_env
+conda activate
 ```
 
 ## Installing packages
@@ -21,7 +20,7 @@ user:~$ conda activate
 Installing packages is relatively simple you just:
 
 ```bash
-(example_env) user:~$ conda install anaconda-docs
+conda install anaconda-docs
 ```
 
 ## Uninstalling packages
@@ -29,7 +28,7 @@ Installing packages is relatively simple you just:
 Uninstalling packages is similar, you just:
 
 ```bash
-(example_env) user:~$ conda remove anaconda-docs
+conda remove anaconda-docs
 ```
 
 ## Removing your virtual environment
@@ -37,8 +36,8 @@ Uninstalling packages is similar, you just:
 Make sure you have deactivated your environment then:
 
 ```bash
-(example_env) user:~$ conda deactivate
-user:~$ conda remove --name example_env --all
+conda deactivate
+conda remove --name example_env --all
 ```
 
 - The `--name` flag specifies the anaconda environment name
