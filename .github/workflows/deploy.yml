@@ -20,6 +20,7 @@ jobs:
   deploy:
     need: lint_check
     runs-on: ubuntu-latest
+    if: ${{ !needs.lint_check.outputs.lint.success }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
