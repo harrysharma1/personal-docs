@@ -7,7 +7,7 @@ It will also act as a prototype for a documentation system that I am working on.
 
 ## Languages I use
 
-- Python
+- [Python](python/about.md)
 - Javascript
 - Lua
 - C/C++ (I rarely use this)
