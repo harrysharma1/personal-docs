@@ -1,6 +1,10 @@
 site_name: Personal Documentation
 theme:
-  name: material 
+  name: material
+  features:
+    - navigation.path  
+    - content.code.copy
+    - content.code.select
   palette: 
     - scheme: default
       primary: yellow
@@ -12,9 +16,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  features:  
-    - content.code.copy
-    - content.code.select
 markdown_extensions:
   - admonition
   - footnotes
@@ -33,7 +34,15 @@ markdown_extensions:
 
   - toc:
       permalink: true
-
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/harrysharma1
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/harry-sharma-567b21225/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:harrysharma1066@gmail.com
+      
 nav:
   - Home: index.md
   - Python:
