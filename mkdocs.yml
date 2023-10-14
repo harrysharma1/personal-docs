@@ -6,8 +6,7 @@ theme:
     - content.code.copy
     - content.code.select
   palette: 
-    - scheme: default
-      primary: yellow
+    - scheme: kcl
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
@@ -16,6 +15,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+extra_css:
+  - https://theme.er.kcl.ac.uk/css/mkdocs.css
+  - stylesheets/design.css
 markdown_extensions:
   - admonition
   - footnotes

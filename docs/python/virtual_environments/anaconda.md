@@ -42,3 +42,4 @@ conda remove --name example_env --all
 
 - The `--name` flag specifies the anaconda environment name
 - The `--all` specifies the removal of all packages within that environment
+c
