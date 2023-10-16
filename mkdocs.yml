@@ -15,6 +15,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  favicon: assets/favicon.jpeg
 extra_css:
   - https://theme.er.kcl.ac.uk/css/mkdocs.css
   - stylesheets/design.css
