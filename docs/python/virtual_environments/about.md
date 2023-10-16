@@ -1,11 +1,11 @@
 # About
 
-## What is a virtual environment?
+## Virtual environments
 
 A virtual environment allows an isolated use of
 package installation for each and every project.
 
-## Why do we need a virtual environment?
+## Use for virtual environment
 
 As projects require specific versions of certain packages,
 a problem can occur when working on multiple projects.

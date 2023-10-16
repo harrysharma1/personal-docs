@@ -22,6 +22,7 @@ pip install -r requirements.txt
 ```bash
 docker run -v $PWD:/code pipelinecomponents/markdownlint --style exclude.rb docs README.md
 ```
-## Can be found at
 
-https://harrysharma1.github.io/personal-docs/
+## Can be found
+
+[Here](https://harrysharma1.github.io/personal-docs/)

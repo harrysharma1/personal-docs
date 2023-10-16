@@ -3,7 +3,7 @@
 ## Brief introduction
 
 Python is a multi-pardgimed, dynamically typed and general purpose language.
-It was built on top of C yet it's run time is still slow due to the fact that 
+It was built on top of C yet it's run time is still slow due to the fact that
 it is:
 
 1. Dynamically typed
@@ -19,4 +19,5 @@ Though it does well in:
 - Fullstack Web development
 - Data analytics
 
-It also uses [virtual environments](virtual_environments/about.md) to install packages in an isolated manner (not affecting the overall system).
+It also uses [virtual environments](virtual_environments/about.md)
+to install packages in an isolated manner (not affecting the overall system).
