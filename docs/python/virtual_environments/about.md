@@ -18,5 +18,5 @@ package globally for one project but another required version
 There are two main virtual environments for Python:
 
 1. [`Virtualenv`](virtualenv.md) (for pip)
-2. [`Conda`](anaconda.md) (for conda)
+1. [`Conda`](anaconda.md) (for conda)
     1. [`Mamba`](anaconda.md#mamba) (faster but newer implementation of conda)
