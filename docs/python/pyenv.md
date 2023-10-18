@@ -6,7 +6,7 @@ Pyenv is a tool used to work with various versions of Python.
 Documentation on the full installation can be found
 [here.](https://github.com/pyenv/pyenv)
 
-## Installation 
+## Installation
 
 ### Installation through Github
 
