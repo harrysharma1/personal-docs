@@ -47,10 +47,10 @@ conda remove --name example_env --all
 
 Mamba is a reimplimentation of Anaconda using C++. This was intended to
 speed up resolution speeds compared to Anaconda. This is newer, but if
-you do get stuck with Anaconda, you can use this as an alternative. 
+you do get stuck with Anaconda, you can use this as an alternative.
 Documentation on mamba can be found [here.](https://mamba.readthedocs.io/en/latest/)
 
-### Basic usage 
+### Basic usage
 
 Make sure you have deactivated your environment then:
 
