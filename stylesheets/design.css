@@ -1,0 +1,44 @@
+[data-md-color-scheme="kcl"] {
+    --md-primary-fg-color:        #333c3e;
+    --md-primary-fg-color--light: #fff;
+    --md-primary-fg-color--dark:  #0a2d50;
+    --md-typeset-a-color:  #3498db;
+  }
+  
+  [data-md-color-scheme="kclsecondary"] {
+    --md-primary-fg-color:        #0a2d50;
+    --md-primary-fg-color--light: #c7e0f8;
+    --md-primary-fg-color--dark:  #1c2122;
+    --md-typeset-a-color:  #3498db;
+  }
+  
+  .md-typeset a {
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  
+  .md-typeset a:focus, .md-typeset a:hover {
+    color: #1d6fa5;
+  }
+  
+  .md-header {
+    height: 73px;
+  }
+  
+  .md-header__inner {
+    padding-top: 6px;
+  }
+  
+  .md-header__topic {
+    padding-top: 4px;
+    margin-left: 130px;
+  }
+  
+  .md-header__button.md-logo img, .md-header__button.md-logo svg, .md-header__button.md-logo :-webkit-any(img,svg) {
+    position: absolute;
+    top: -23px;
+    height: 100px;
+    width: 130px;
+  }
+  
+  
