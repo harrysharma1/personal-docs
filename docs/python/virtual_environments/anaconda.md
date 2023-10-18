@@ -46,5 +46,24 @@ conda remove --name example_env --all
 ## Mamba
 
 Mamba is a reimplimentation of Anaconda using C++. This was intended to
-speed up resolution speeds compared to Anaconda. This is newer, but if 
-you do get stuck with Anaconda, you can use this as an alternative
+speed up resolution speeds compared to Anaconda. This is newer, but if
+you do get stuck with Anaconda, you can use this as an alternative. 
+Documentation on mamba can be found [here.](https://mamba.readthedocs.io/en/latest/)
+
+### Basic usage 
+
+Make sure you have deactivated your environment then:
+
+```bash
+conda create -n mamba_environment -c conda-forge mamba
+conda activate mamba_environment
+(mamba_environment) mamba create -n new-environment -c <channel> <packages-to-install>
+
+# Run 'mamba init' to be able to run mamba activate/deactivate
+# and start a new shell session. Or use conda to activate/deactivate.
+
+# (mamba_environment) $ mamba init
+# (mamba_environment) $ source ~/.bashrc
+
+(mamba_environment) mamba activate new-environment
+```
